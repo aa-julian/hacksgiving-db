@@ -44,3 +44,7 @@ cf service-key seed-db seed-db-key
 ```
 
 ![seed](screenshots/seed.png)
+
+## Additional Tutorial
+
+* Create artifacts and query with this [tutorial](https://developers.sap.com/tutorials/hana-trial-advanced-analytics.html)
