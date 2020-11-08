@@ -17,7 +17,7 @@ cp mta.yaml mtad.yaml
 
 cf deploy ./ -f
 
-cf create-service-key seed-db seed-db-key
+cf create-service-key aaj-hackathon-db aaj-hackathon-db-key
 
 rm mtad.yaml
 rm seed-hdi.mtar

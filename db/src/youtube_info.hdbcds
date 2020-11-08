@@ -1,0 +1,37 @@
+entity youtube_info {
+    "video_id"          : hana.VARCHAR(100);
+    "kind"              : hana.VARCHAR(50);
+    "date"              : hana.VARCHAR(100);
+    "published_at"    : hana.VARCHAR(180);
+    "title"             : hana.VARCHAR(150);
+    "description"       : hana.VARCHAR(2000);
+    "thumbnail"         : hana.VARCHAR(150);
+    "channel_title"     : hana.VARCHAR(150);
+    "publish_time"      : hana.VARCHAR(100);
+    "location"          : hana.ST_POINT;
+    "location_radius_m"   : Integer;
+};
+// technical configuration {
+//     // Search 'Full-Text Index Parameters' on help.sap.com
+//     // fulltext index aclednotes_fulltext on ("notes")
+//     // ASYNC LANGUAGE DETECTION ('EN') 
+//     // PHRASE INDEX RATIO 0.200000 
+//     // FUZZY SEARCH INDEX OFF 
+//     // SEARCH ONLY OFF 
+//     // FAST PREPROCESS OFF 
+//     // TEXT MINING on
+//     // TOKEN SEPARATORS '\/;,.:-_()[]<>!?*@+{}="&#$~|' 
+//     // CONFIGURATION 'acled_idx_cfg'
+//     // TEXT ANALYSIS ON;
+
+//     // Search 'Full-Text Index Parameters' on help.sap.com
+//     fulltext index fti_notes on (NOTES)
+//     fast preprocess off
+//     async
+//     language detection('en')
+//     fuzzy search index on
+//     token separators '\/;,.:-_()[]<>!?*@+{}="&#$~|' 
+//     text mining on
+//     configuration 'acled_idx_cfg'
+//     text analysis on;
+// };

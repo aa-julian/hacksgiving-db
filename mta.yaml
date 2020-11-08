@@ -1,4 +1,4 @@
-ID: seed-hdi
+ID: aaj-hackathon-hdi
 _schema-version: "3.3"
 version: 0.0.1
 modules:
@@ -6,14 +6,14 @@ modules:
     type: com.sap.xs.hdi
     path: db
     requires:
-      - name: seed-db
+      - name: aaj-hackathon-db
     properties:
       OPTIMIZE_MEMORY: true
     parameters:
       disk-quota: 256M
       memory: 1024M
 resources:
-  - name: seed-db
+  - name: aaj-hackathon-db
     properties:
       hdi-container-name: "${service-name}"
     type: com.sap.xs.hdi-container
